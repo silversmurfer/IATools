@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# InstArcade update script
 
 #Step 1) Check if root--------------------------------------
 if [[ $EUID -ne 0 ]]; then
