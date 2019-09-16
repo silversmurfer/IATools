@@ -13,6 +13,6 @@ fi
 
 #Step 2) Update motd----------------------------------
 #-----------------------------------------------------------
-# wget -N -q --show-progress "https://raw.githubusercontent.com/silversmurfer/IATools/master/iaupdates/motd"
+wget -N -q --show-progress "https://raw.githubusercontent.com/silversmurfer/IATools/master/iaupdates/motd"
 
 #-----------------------------------------------------------
