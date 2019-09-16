@@ -17,7 +17,7 @@ git clone https://github.com/silversmurfer/IATools.git
 
 #Step 3) Update motd----------------------------------
 #-----------------------------------------------------------
-cd /tmp/IATools/iaupdates
+cd /tmp
 cp -f /tmp/IATools/iaupdates/motd /etc
 #-----------------------------------------------------------
 
@@ -42,5 +42,5 @@ cp -f /tmp/IATools/iaupdates/configs/all/emulationstation/collections/* /opt/ret
 #Step X) Clean UP----------------------------------
 #-----------------------------------------------------------
 cd /tmp
-rm -rf /tmp/IATools
+# rm -rf /tmp/IATools
 #-----------------------------------------------------------
