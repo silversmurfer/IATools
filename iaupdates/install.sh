@@ -18,7 +18,7 @@ git clone https://github.com/silversmurfer/IATools.git
 #Step 3) Update motd----------------------------------
 #-----------------------------------------------------------
 cd /tmp/IATools/iaupdates
-cp -f /tmp/motd /etc
+cp -f /tmp/IATools/iaupdates/motd /etc
 #-----------------------------------------------------------
 
 #Step 4) Fix Bluray theme----------------------------------
