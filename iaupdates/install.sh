@@ -24,29 +24,34 @@ git clone https://github.com/silversmurfer/IATools.git
 #Step 3) Update motd----------------------------------
 #-----------------------------------------------------------
 cd /tmp
+echo "Updating banner"
 cp -f /tmp/IATools/iaupdates/motd /etc
 #-----------------------------------------------------------
 
 #Step 4) Fix Bluray theme----------------------------------
 #-----------------------------------------------------------
 cd /tmp
+echo "Fixing Bluray theme to be family friendly"
 cp -f /tmp/IATools/iaupdates/themes/bluray/auto-allgames/_inc/system.png /etc/emulationstation/themes/bluray/auto-allgames/_inc/
 #-----------------------------------------------------------
 
 #Step 5) Fix retroarch config files----------------------------------
 #-----------------------------------------------------------
 cd /tmp
+echo "Updating retroarch config files"
 cp -f /tmp/IATools/iaupdates/configs/all/retronetplay.cfg /opt/retropie/configs/all/
 #-----------------------------------------------------------
 
 #Step 6) Fix emulationstation collections----------------------------------
 #-----------------------------------------------------------
 cd /tmp
+echo "Updating emulationstaion collections"
 cp -f /tmp/IATools/iaupdates/configs/all/emulationstation/collections/* /opt/retropie/configs/all/emulationstation/collections
 #-----------------------------------------------------------
 
 #Step X) Clean UP----------------------------------
 #-----------------------------------------------------------
 cd /tmp
+echo "Cleaning up after"
 rm -rf /tmp/IATools
 #-----------------------------------------------------------
