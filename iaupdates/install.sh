@@ -8,22 +8,39 @@ if [[ $EUID -ne 0 ]]; then
 fi
 #-----------------------------------------------------------
 
-
-#-----------------------------------------------------------
-
-#Step 2) Update motd----------------------------------
+#Step 2) Clone update repo----------------------------------
 #-----------------------------------------------------------
 cd /tmp
-wget -N -q --show-progress "https://raw.githubusercontent.com/silversmurfer/IATools/master/iaupdates/motd"
-mv -f /tmp/motd /etc
-
+git clone https://github.com/silversmurfer/IATools.git
 #-----------------------------------------------------------
 
-#Step 3) Fix Bluray theme----------------------------------
+
+#Step 3) Update motd----------------------------------
+#-----------------------------------------------------------
+cd /tmp/IATools/iaupdates
+cp -f /tmp/motd /etc
+#-----------------------------------------------------------
+
+#Step 4) Fix Bluray theme----------------------------------
 #-----------------------------------------------------------
 cd /tmp
-wget -N -q --show-progress "https://raw.githubusercontent.com/silversmurfer/IATools/master/iaupdates/themes/bluray/auto-allgames/_inc/system.png"
-mv -f /tmp/system.png /etc/emulationstation/themes/bluray/auto-allgames/_inc/
-
+cp -f /tmp/IATools/iaupdates/themes/bluray/auto-allgames/_inc/system.png /etc/emulationstation/themes/bluray/auto-allgames/_inc/
 #-----------------------------------------------------------
 
+#Step 5) Fix retroarch config files----------------------------------
+#-----------------------------------------------------------
+cd /tmp
+cp -f /tmp/IATools/iaupdates/configs/all/retronetplay.cfg /opt/retropie/configs/all/
+#-----------------------------------------------------------
+
+#Step 6) Fix emulationstation collections----------------------------------
+#-----------------------------------------------------------
+cd /tmp
+cp -f /tmp/IATools/iaupdates/configs/all/emulationstation/collections/* /opt/retropie/configs/all/emulationstation/collections
+#-----------------------------------------------------------
+
+#Step X) Clean UP----------------------------------
+#-----------------------------------------------------------
+cd /tmp
+rm -rf /tmp/IATools
+#-----------------------------------------------------------
