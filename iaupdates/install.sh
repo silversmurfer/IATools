@@ -22,7 +22,7 @@ mv -f /tmp/motd /etc
 #Step 3) Fix Bluray theme----------------------------------
 #-----------------------------------------------------------
 cd /tmp
-wget -N -q --show-progress "https://raw.githubusercontent.com/silversmurfer/IATools/iaupdates/themes/bluray/auto-allgames/_inc/system.png"
+wget -N -q --show-progress "https://raw.githubusercontent.com/silversmurfer/IATools/master/iaupdates/themes/bluray/auto-allgames/_inc/system.png"
 mv -f /tmp/system.png /etc/emulationstation/themes/bluray/auto-allgames/_inc/
 
 #-----------------------------------------------------------
