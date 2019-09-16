@@ -42,5 +42,5 @@ cp -f /tmp/IATools/iaupdates/configs/all/emulationstation/collections/* /opt/ret
 #Step X) Clean UP----------------------------------
 #-----------------------------------------------------------
 cd /tmp
-# rm -rf /tmp/IATools
+rm -rf /tmp/IATools
 #-----------------------------------------------------------
