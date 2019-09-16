@@ -46,7 +46,7 @@ cp -f /tmp/IATools/iaupdates/configs/all/retronetplay.cfg /opt/retropie/configs/
 #-----------------------------------------------------------
 cd /tmp
 echo "Updating emulationstaion collections"
-cp -f /tmp/IATools/iaupdates/configs/all/emulationstation/collections/* /opt/retropie/configs/all/emulationstation/collections
+cp -rf /tmp/IATools/iaupdates/configs/all/emulationstation/collections /opt/retropie/configs/all/emulationstation/
 #-----------------------------------------------------------
 
 #Step X) Clean UP----------------------------------
