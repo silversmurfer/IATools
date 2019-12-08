@@ -35,14 +35,22 @@ echo "Fixing Bluray theme to be family friendly"
 cp -f /tmp/IATools/iaupdates/themes/bluray/auto-allgames/_inc/system.png /etc/emulationstation/themes/bluray/auto-allgames/_inc/
 #-----------------------------------------------------------
 
-#Step 5) Fix retroarch config files----------------------------------
+#Step 5) Fix folder permissions on config files----------------------------------
+#-----------------------------------------------------------
+cd /tmp
+echo "Fixing folder permissions"
+chown -R pi:pi /opt/retropie/configs/*
+cp -f /tmp/IATools/iaupdates/configs/all/retronetplay.cfg /opt/retropie/configs/all/
+#-----------------------------------------------------------
+
+#Step 6) Fix retroarch config files----------------------------------
 #-----------------------------------------------------------
 cd /tmp
 echo "Updating retroarch config files"
 cp -f /tmp/IATools/iaupdates/configs/all/retronetplay.cfg /opt/retropie/configs/all/
 #-----------------------------------------------------------
 
-#Step 6) Fix emulationstation collections----------------------------------
+#Step 7) Fix emulationstation collections----------------------------------
 #-----------------------------------------------------------
 cd /tmp
 echo "Updating emulationstaion collections"
