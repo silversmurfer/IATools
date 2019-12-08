@@ -38,7 +38,7 @@ cp -f /tmp/IATools/iaupdates/themes/bluray/auto-allgames/_inc/system.png /etc/em
 #Step 5) Fix folder permissions on config files----------------------------------
 #-----------------------------------------------------------
 cd /tmp
-echo "Fixing folder permissions"
+echo "Fixing folder permissions on configs"
 chown -R pi:pi /opt/retropie/configs/*
 #-----------------------------------------------------------
 
