@@ -40,7 +40,6 @@ cp -f /tmp/IATools/iaupdates/themes/bluray/auto-allgames/_inc/system.png /etc/em
 cd /tmp
 echo "Fixing folder permissions"
 chown -R pi:pi /opt/retropie/configs/*
-cp -f /tmp/IATools/iaupdates/configs/all/retronetplay.cfg /opt/retropie/configs/all/
 #-----------------------------------------------------------
 
 #Step 6) Fix retroarch config files----------------------------------
