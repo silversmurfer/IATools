@@ -60,7 +60,7 @@ cp -rf /tmp/IATools/iaupdates/configs/all/emulationstation/collections /opt/retr
 #-----------------------------------------------------------
 cd /tmp
 echo "Creating Dreamcast SystemManager"
-ln -sv fileThatDoesNotExist home/pi/RetroPie/roms/dreamcast/SystemManager.cdi
+ln -sv fileThatDoesNotExist /home/pi/RetroPie/roms/dreamcast/SystemManager.cdi
 chown pi:pi /home/pi/RetroPie/roms/dreamcast/SystemManager.cdi
 #-----------------------------------------------------------
 
