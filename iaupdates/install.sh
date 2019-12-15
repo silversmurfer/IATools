@@ -56,6 +56,13 @@ echo "Updating emulationstaion collections"
 cp -rf /tmp/IATools/iaupdates/configs/all/emulationstation/collections /opt/retropie/configs/all/emulationstation/
 #-----------------------------------------------------------
 
+#Step 8) Add Dreamcast SystemManager for VMU management-----
+#-----------------------------------------------------------
+cd /tmp
+echo "Creating Dreamcast SystemManager"
+ln -sv fileThatDoesNotExist ~/RetroPie/roms/dreamcast/SystemManager.cdi
+#-----------------------------------------------------------
+
 #Step X) Clean UP-------------------------------------------
 #-----------------------------------------------------------
 cd /tmp
