@@ -1,0 +1,6 @@
+append these lines to your controllers .cfg file
+
+input_l_x_plus_axis = "+0"
+input_l_x_minus_axis = "-0"
+input_l_y_plus_axis = "+1"
+input_l_y_minus_axis = "-1"
