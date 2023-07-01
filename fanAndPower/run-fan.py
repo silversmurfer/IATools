@@ -92,7 +92,9 @@ import datetime
 #########################
 sleepTime = 30	# Time to sleep between checking the temperature
                 # want to write unbuffered to file
-fileLog = open('/home/pi/run-fan.log', 'w+', 0)
+# fileLog = open('/home/pi/run-fan.log', 'w+', 0) # this is not compatible woth python 3
+# updated file logging open to support python 3 and to write buffer after each line
+fileLog = open('/home/pi/run-fan.log', 'w+', buffering=1)
 
 #########################
 # Log messages should be time stamped
