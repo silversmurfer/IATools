@@ -1,0 +1,17 @@
+[Unit]
+Description=run fan when hot
+After=meadiacenter.service
+
+[Service]
+# If User and Group are not specified, then by default systemd ExecStart runs as root
+User=root
+Group=root
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/bin/run-fan.py
+# write to journal or within script to separate log file
+StandardOutput=/tmp/run-fan.log
+StandardError=/tmp/run-fan.log
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target
