@@ -1,0 +1,17 @@
+[Unit]
+Description=AtariPie Power Button Service
+After=meadiacenter.service
+
+[Service]
+# If User and Group are not specified, then by default systemd ExecStart runs as root
+User=root
+Group=root
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/bin/listen-for-shutdown.py
+# write to journal or within script to separate log file
+StandardOutput=/tmp/listen-for-shutdown.log
+StandardError=/tmp/listen-for-shutdown.log
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target
