@@ -22,10 +22,14 @@ git clone https://github.com/silversmurfer/IATools.git
 #-----------------------------------------------------------
 
 
-#Step 3) Update motd----------------------------------------
+#Step 3) Create Service ----------------------------------------
 #-----------------------------------------------------------
 cd /tmp
 echo "Updating banner"
+cp /tmp/IATools/fanAndPower/run-fan.service /lib/systemd/system/
+cp /tmp/IATools/fanAndPower/run-fan.py /usr/local/bin/
+systemctl daemon-reload
+systemctl enable run-fan.service
 # cp -f /tmp/IATools/iaupdates/motd /etc
 #-----------------------------------------------------------
 
