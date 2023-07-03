@@ -22,15 +22,25 @@ git clone https://github.com/silversmurfer/IATools.git
 #-----------------------------------------------------------
 
 
-#Step 3) Create Service ----------------------------------------
+#Step 3) Create fan Service ----------------------------------------
 #-----------------------------------------------------------
 cd /tmp
-echo "Updating banner"
+echo "Creating Fan Service"
 cp /tmp/IATools/fanAndPower/run-fan.service /lib/systemd/system/
 cp /tmp/IATools/fanAndPower/run-fan.py /usr/local/bin/
 systemctl daemon-reload
 systemctl enable run-fan.service
-# cp -f /tmp/IATools/iaupdates/motd /etc
+#-----------------------------------------------------------
+
+#Step 4) Create Power Service ----------------------------------------
+#-----------------------------------------------------------
+cd /tmp
+echo "Creating Power LED Service"
+cp /tmp/IATools/fanAndPower/listen-for-shutdown.service /lib/systemd/system/
+cp /tmp/IATools/fanAndPower/listen-for-shutdown.py /usr/local/bin/
+cp /tmp/IATools/fanAndPower/multi_switch.sh /usr/local/bin/
+systemctl daemon-reload
+systemctl enable listen-for-shutdown.service
 #-----------------------------------------------------------
 
 
