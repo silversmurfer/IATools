@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./configedit.rp</path>
+		<name>Configuration Editor</name>
+		<desc>Change common RetroArch options, and manually edit RetroArch configs, global configs, and non-RetroArch configs.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/configedit.png</image>
+	</game>
+	<game>
+		<path>./esthemes.rp</path>
+		<name>ES Themes</name>
+		<desc>Install, uninstall, or update EmulationStation themes. Most themes can be previewed at https://github.com/retropie/ RetroPie-Setup/wiki/themes.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/esthemes.png</image>
+	</game>
+	<game>
+		<path>./filemanager.rp</path>
+		<name>File Manager</name>
+		<desc>Basic ascii file manager for linux allowing you to browse, copy, delete, and move files.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/filemanager.png</image>
+	</game>
+	<game>
+		<path>./runcommand.rp</path>
+		<name>Run Command Configuration</name>
+		<desc>Change what appears on the runcommand screen. Enable or disable the menu, enable or disable box art, and change CPU configuration.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/runcommand.png</image>
+	</game>
+	<game>
+		<path>./showip.rp</path>
+		<name>Show IP</name>
+		<desc>Displays your current IP address, as well as other information provided by the command, "ip addr show."</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/showip.png</image>
+	</game>
+	<game>
+		<path>./wifi.rp</path>
+		<name>WiFi</name>
+		<desc>Connect to or disconnect from a wifi network and configure wifi settings.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/wifi.png</image>
+	</game>
+	<game>
+		<path>./backgroundmusic.sh</path>
+		<name>Background Music</name>
+		<desc>The mpg123 music script has been installed in this build to play MP3/WAV files during menu navigation in both Emulation Station and Attract Mode. A special folder in /roms has been created called music. This folder is used to place your MP3/WAV files into. Once done, restart the system and they will begin automatically playing. Once you launch a game, the music will stop. Upon exiting out of a game, the music will begin playing again.</desc>
+		<image>./icons/backgroundmusic.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20190204T112934</lastplayed>
+	</game>
+	<game>
+		<path>./resetcontrollers.sh</path>
+		<name>Reset All Controllers</name>
+		<desc>It will reset all ES cotroller configurations and remove any previous controller profiles. This will give you a clean controllers setup!</desc>
+		<image>./icons/controllers.png</image>
+		<playcount>1</playcount>
+		<lastplayed>20190812T165407</lastplayed>
+	</game>
+	<game>
+		<path>./audiosettings.rp</path>
+		<name>Audio</name>
+		<desc>Configure audio settings. Choose default of auto, 3.5mm jack, or HDMI. Mixer controls, and apply default settings.</desc>
+		<image>./icons/audiosettings.png</image>
+		<playcount>4</playcount>
+		<lastplayed>20190821T084544</lastplayed>
+	</game>
+	<game>
+		<path>./removemedia.sh</path>
+		<name>Media Removal Util </name>
+		<desc>This utility will remove extra media files (mixart, boxart, cartart, snap and wheel) for a chosen system when there is not a matching game/rom for it. Mixart tweak added.</desc>
+		<image>./icons/cleanup.png</image>
+		<playcount>1</playcount>
+		<lastplayed>20190108T024758</lastplayed>
+	</game>
+	<game>
+		<path>./OverscanOn-Off.sh</path>
+		<name>OverScan On/Off</name>
+		<desc>This script will let quickly enable or disable the overscan setting.</desc>
+		<image>./icons/OverscanOn-Off.png</image>
+		<playcount>1</playcount>
+		<lastplayed>20190419T162946</lastplayed>
+	</game>
+	<game>
+		<path>./launchingscreens.sh</path>
+		<name>Launching Screens</name>
+		<desc>This script will enable or disable the use of launching screens. Launching screensets are located here: /home/pi/RetroPie/LaunchingScreens Each set of launching screens you have located there must be in their own parent folder, with the individual emulator system folders containing the launching.png files underneath.</desc>
+		<image>./icons/launchingscreens.png</image>
+		<playcount>6</playcount>
+		<lastplayed>20190108T024501</lastplayed>
+	</game>
+	<game>
+		<path>./genesis.sh</path>
+		<name>Switch Genesis-Megadrive</name>
+		<desc>This script will switch between the Sega Genesis and the Sega Megadrive themes in both ES and AM to show in the main menu. You will need to restart Emulation Station after making the change. By SUPREME TEAM</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/genesis.png</image>
+	</game>
+	<game>
+		<path>./esthemerandomizer.sh</path>
+		<name>Bootup Theme Randomizer</name>
+		<desc>Utility to enable or disable random themes upon Emulation Station bootup.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/esthemerandomizer.png</image>
+	</game>
+	<game>
+		<path>./bezels.sh</path>
+		<name>Bezel Custom Sets</name>
+		<desc>You can enable or disable custom folder bezels such as Motion Blue #2 set or future sets.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/bezels.png</image>
+	</game>
+	<game>
+		<path>./retronetplay.rp</path>
+		<name>RetroArch Net Play</name>
+		<desc>Set up RetroArch Netplay options, choose host or client, port, host IP, delay frames, and your nickname.</desc>
+		<image>./icons/retronetplay.png</image>
+		<playcount>1</playcount>
+		<lastplayed>20190823T043757</lastplayed>
+	</game>
+	<game>
+		<path>./joystick_selection.sh</path>
+		<name>Joystick Selection</name>
+		<desc>Select which joystick to use for RetroArch players 1-4 (global or system specific).</desc>
+		<image>./icons/joystick_selection.png</image>
+	</game>
+	<game>
+		<path>./overclock.sh</path>
+		<name>OverClock RPI4</name>
+		<desc>Overclock your Pi4.</desc>
+		<image>./icons/overclock.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20190902T055209</lastplayed>
+	</game>
+	<game>
+		<path>./Raspberry-Video-Output.sh</path>
+		<name>Raspberry Video Output</name>
+		<desc>This script will let quickly let you change video output. Some ex 1080P,720P,480P,240P.</desc>
+		<image>./icons/videoout.png</image>
+		<playcount>11</playcount>
+		<lastplayed>20190902T055349</lastplayed>
+	</game>
+	<game>
+		<path>./hurstythemes.sh</path>
+		<name>hurstythemes</name>
+		<image>./icons/hurstythemes.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20190910T193620</lastplayed>
+	</game>
+	<game>
+		<path>./basicinfo.sh</path>
+		<name>System Info</name>
+		<desc>View a summary of your Retropie system info, temperature, partition info, ip</desc>
+		<image>./icons/toolkit.png</image>
+		<playcount>8</playcount>
+		<lastplayed>20191101T114931</lastplayed>
+	</game>
+	<game>
+		<path>./splashscreen.rp</path>
+		<name>Splash Screens</name>
+		<desc>Enable or disable the splashscreen on RetroPie boot. Choose a splashscreen, download new splashscreens, and return splashscreen to default.</desc>
+		<image>./icons/splashscreen.png</image>
+		<playcount>2</playcount>
+		<lastplayed>20191102T113719</lastplayed>
+	</game>
+	<game>
+		<path>./clearlastplayed.sh</path>
+		<name>Clear Last Played</name>
+		<desc>The user friendly Game list cleaner</desc>
+		<image>./icons/clearlastplayed.png</image>
+		<playcount>2</playcount>
+		<lastplayed>20191102T114820</lastplayed>
+	</game>
+	<game>
+		<path>./videoloading.sh</path>
+		<name>RetroPie Video Loading screen</name>
+		<desc>Enable or Disable video loading screen.</desc>
+		<image>./icons/videoloading.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20191102T152512</lastplayed>
+	</game>
+	<game>
+		<path>./raspiconfig.rp</path>
+		<name>Raspi-Config</name>
+		<desc>Change user password, boot options, internationalization, camera, add your pi to Rastrack, overclock, overscan, memory split, SSH and more.</desc>
+		<image>./icons/raspiconfig.png</image>
+		<playcount>8</playcount>
+		<lastplayed>20191106T083811</lastplayed>
+	</game>
+	<game>
+		<path>./bluetooth.rp</path>
+		<name>Bluetooth</name>
+		<desc>Register and connect to bluetooth devices. Unregister and remove devices, and display registered and connected devices.</desc>
+		<image>./icons/bluetooth.png</image>
+		<playcount>1</playcount>
+		<lastplayed>20191124T171109</lastplayed>
+	</game>
+	<game>
+		<path>./retroarch.rp</path>
+		<name>Retroarch</name>
+		<desc>Launches the RetroArch GUI so you can change RetroArch options. Note: Changes will not be saved unless you have enabled the "Save Configuration On Exit" option.</desc>
+		<image>./icons/retroarch.png</image>
+		<playcount>15</playcount>
+		<lastplayed>20191223T175115</lastplayed>
+	</game>
+	<game>
+		<path>./joystick_selection.sh</path>
+		<name>Joystick Selection</name>
+		<desc>Select which joystick to use for RetroArch players 1-4 (global or system specific).</desc>
+		<image>./icons/joystick_selection.png</image>
+	</game>
+	<game>
+		<path>./bezelproject.sh</path>
+		<name>Bezel Project</name>
+		<desc>Download and manage games bezels.</desc>
+		<image>./icons/bezelproject.png</image>
+		<playcount>4</playcount>
+		<lastplayed>20200322T180941</lastplayed>
+	</game>
+	<game>
+		<path>./rpsetup.rp</path>
+		<name>RetroPie Setup</name>
+		<desc>Official Retropie Setup script! Audio settings, RetroPie main install-update, install extra packages, additional drivers, edit samba shares as well as other RetroPie-related configurations.</desc>
+		<image>./icons/rpsetup.png</image>
+		<playcount>37</playcount>
+		<lastplayed>20200323T125845</lastplayed>
+	</game>
+</gameList>
