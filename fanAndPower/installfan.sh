@@ -39,6 +39,7 @@ echo "Creating Power LED Service"
 cp /tmp/IATools/fanAndPower/listen-for-shutdown.service /lib/systemd/system/
 cp /tmp/IATools/fanAndPower/listen-for-shutdown.py /usr/local/bin/
 cp /tmp/IATools/fanAndPower/multi_switch.sh /usr/local/bin/
+chmod +x /usr/local/bin/multi_switch.sh
 systemctl daemon-reload
 systemctl enable listen-for-shutdown.service
 #-----------------------------------------------------------
