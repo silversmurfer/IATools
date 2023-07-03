@@ -54,7 +54,7 @@ def when_released():
     global buttonMode
     if buttonMode == 1 :
 #      print("the button had a short press - reset value")
-       led.blink(on_time=0.25,off_time=0.25,n=2,background=False)
+       led.blink(on_time=0.25,off_time=0.25,n=3,background=False)
        print("executing restart task")
        output = int(subprocess.check_output(['/usr/local/bin/multi_switch.sh', '--es-pid']))
        output_rc = int(subprocess.check_output(['/usr/local/bin/multi_switch.sh', '--rc-pid']))
@@ -67,7 +67,7 @@ def when_released():
 
     if buttonMode == 2 :
 #       print("the button had a long press - poweroff value")
-        led.blink(on_time=0.5,off_time=0.5,n=5,background=False)
+        led.blink(on_time=0.5,off_time=0.5,n=6,background=False)
         output = int(subprocess.check_output(['/usr/local/bin/multi_switch.sh', '--es-pid']))
         if output:
             os.system("/usr/local/bin/multi_switch.sh --es-poweroff")
